@@ -7,7 +7,7 @@ Q.start();
 
 const file = new Q('files');
 file.monitorEvent('save');
-file.monitorEvent('error');
+file.monitorEvent('file-error');
 
 
 const db = new Q('database');
