@@ -5,8 +5,10 @@
 ### Links and Resources
 * [submission PR](http://xyz.com)
 * [travis](http://xyz.com)
-* [Logger](http://xyz.com) (when applicable)
-* [API App](http://xyz.com) (when applicable)
+* [Logger](https://github.com/401-advanced-javascript-felipe/lab19-logger/pull/1)
+* [API App](https://github.com/401-advanced-javascript-felipe/lab19-apiServer/pull/1)
+* [File Save](https://github.com/401-advanced-javascript-felipe/lab19-fileSave/pull/1)
+
 
 ## Modules
 ### `server.js`
