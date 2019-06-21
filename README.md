@@ -1,29 +1,31 @@
-# LAB - 
+# Lab 19 Message Server
 
 ## Project Name
 
-### Author: Student/Group Name
+### Author: Felipe Delatorre
 
 ### Links and Resources
 * [submission PR](http://xyz.com)
 * [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [Logger](http://xyz.com) (when applicable)
+* [API App](http://xyz.com) (when applicable)
 
 #### Documentation
 * [api docs](http://xyz.com) (API servers)
 * [jsdoc](http://xyz.com) (Server assignments)
 * [styleguide](http://xyz.com) (React assignments)
 
-### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
+## Modules
+### `server.js`
+#### Creates a `file` queue
+* Listens for `save` events from the `files` queue
+* Listens for `error` events from the `files` queue
+#### Creates a `database` queue
+* Listens for `read` events from the `database` queue
+* Listens for `create` events from the `database` queue
+* Listens for `update` events from the `database` queue
+* Listens for `delete` events from the `database` queue
+* Listens for `error` events from the `database` queue
 
 ### Setup
 #### `.env` requirements
@@ -37,10 +39,5 @@ Usage Notes or examples
 * Endpoint: `/bing/zing/`
   * Returns a JSON object with xyz in it.
   
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
-
 #### UML
 ![](./assets/----.jpg)
