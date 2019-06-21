@@ -1,46 +1,34 @@
-# LAB - 
+# Lab 19 Message Server
 
-## Project Name
-
-### Author: Student/Group Name
+### Author: Felipe Delatorre
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [submission PR](https://github.com/401-advanced-javascript-felipe/lab19-MQS/pull/1)
+* [travis](https://travis-ci.com/401-advanced-javascript-felipe/lab19-MQS/builds/116457229)
+* [Logger](https://github.com/401-advanced-javascript-felipe/lab19-logger/pull/1)
+* [API App](https://github.com/401-advanced-javascript-felipe/lab19-apiServer/pull/1)
+* [File Save](https://github.com/401-advanced-javascript-felipe/lab19-fileSave/pull/1)
 
-#### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
 
-### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
+## Modules
+### `server.js`
+#### Creates a `file` queue
+* Listens for `file-save` events from the `files` queue
+* Listens for `error` events from the `files` queue
+#### Creates a `database` queue
+* Listens for `read` events from the `database` queue
+* Listens for `create` events from the `database` queue
+* Listens for `update` events from the `database` queue
+* Listens for `delete` events from the `database` queue
+* Listens for `error` events from the `database` queue
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `PORT` - default values
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* For Success saves `npm start`
+* For Errors `npm run startError`
   
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
-
 #### UML
-![](./assets/----.jpg)
+![Pic Comming Soon](./assets/----.jpg)
